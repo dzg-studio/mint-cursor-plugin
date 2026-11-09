@@ -1,6 +1,10 @@
 # Mint for Mac
 
-Mint is a Mac app that keeps disk and memory healthy for you and the AI agents working on your Mac. This plugin gives Cursor's agent Mint's own engine and checks: it can see what grew, get space back, much of it without deleting a file, free memory from apps you aren't using, and find what coding agents such as Codex, Claude Code and Cursor leave behind. Anything that deletes for good, quits an app or changes Mint's settings waits until the person confirms it in Mint's own window on the Mac.
+Smart disk and memory. For you and your agents.
+
+Mint is a Mac app that keeps disk and memory healthy for you and the AI agents working on your Mac. Coding agents fill the disk with conversations, worktrees, build output and caches, and leave apps and headless browsers running that hold memory. Mint judges each item before it offers anything: which agent or app it came from, whether it is still in use, whether it would come back on its own. Mint 1.2 also finds worktrees that can be made again, old app builds and leftover simulator copies.
+
+With this plugin, Cursor's agent asks Mint what grew and what is safe to free, then gets space back, much of it without deleting a file (identical copies share their storage, idle files are compressed in place), moves what is safe to clean to the Trash and frees memory from idle apps, through the Mint app's own engine and checks. Anything that deletes for good, quits an app or changes Mint's settings waits until you confirm it in Mint's window on the Mac, and Mint keeps a record of what it moved, so it can be put back while the items still exist.
 
 The plugin starts Mint's own MCP server on this Mac. Every tool runs locally, inside Mint.
 

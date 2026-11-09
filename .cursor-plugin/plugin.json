@@ -2,7 +2,7 @@
   "name": "mint-for-mac",
   "displayName": "Mint for Mac",
   "version": "1.0.0",
-  "description": "Mint is a Mac app that keeps disk and memory healthy for you and the AI agents working on your Mac. Through Mint's own engine and checks, Cursor's agent sees what grew, gets space back, much of it without deleting a file, frees memory from apps you aren't using and knows what coding agents leave behind. Anything that deletes for good, quits an app or changes settings is confirmed in Mint.",
+  "description": "Smart disk and memory for you and your agents. Mint knows what Cursor, Claude Code and Codex leave behind, from conversations to worktrees that can be made again, old builds and simulator copies, and which idle apps hold memory. Cursor's agent gets space and RAM back through Mint's checks; anything that deletes for good, quits an app or changes settings waits for you in Mint.",
   "author": {
     "name": "DZG Studio LLC",
     "email": "dev@dzgapp.com"
@@ -11,14 +11,18 @@
   "repository": "https://github.com/dzg-studio/mint-cursor-plugin",
   "license": "MIT",
   "keywords": [
-    "macos",
     "ai-agents",
-    "disk",
+    "agents",
+    "claude-code",
+    "codex",
+    "cursor",
     "memory",
+    "ram",
+    "disk-space",
     "storage",
-    "mcp",
-    "organize",
-    "undo"
+    "worktrees",
+    "macos",
+    "mcp"
   ],
   "category": "Productivity",
   "logo": "assets/icon.png",
