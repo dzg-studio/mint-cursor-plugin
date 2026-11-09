@@ -30,6 +30,10 @@ To set it up by hand instead, add Mint's server to `~/.cursor/mcp.json`:
 
 or use this link: [![Add Mint to Cursor](https://cursor.com/deeplink/mcp-install-dark.png)](https://cursor.com/install-mcp?name=mint&config=eyJjb21tYW5kIjoiL0FwcGxpY2F0aW9ucy9NaW50LmFwcC9Db250ZW50cy9SZXNvdXJjZXMvbWludC1jbGkiLCJhcmdzIjpbIm1jcCJdfQ%3D%3D)
 
+## Try it
+
+To try it on a Mac with macOS 14 or later: install Mint from [mintstorage.app/download](https://mintstorage.app/download/) (free; scans and previews need no account), open it once, add the plugin, then ask "How much space is my Mac using, and what grew?" (`mint_status`) or "What does Mint offer here?" (`mint_capabilities`).
+
 ## Tools
 
 | Area | Tools | What the agent can do |
