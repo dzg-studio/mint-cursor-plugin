@@ -35,14 +35,14 @@ or use this link: [![Add Mint to Cursor](https://cursor.com/deeplink/mcp-install
 | Area | Tools | What the agent can do |
 | --- | --- | --- |
 | Overview | `mint_status`, `mint_why`, `mint_history`, `mint_recent`, `mint_activity`, `mint_capabilities`, `mint_access` | Disk use over time and what grew, past work, which operations this Mint offers, and how much of the free allowance is left |
+| AI tools | `mint_agents`, `mint_conversations_scan`, `mint_conversations_optimize`, `mint_conversations_remove_media`, `mint_conversations_delete`, `mint_archives_optimize` | What Codex, Claude Code, Cursor and other AI tools keep on this Mac, and how much their conversations and archives take |
 | Disk | `mint_disk_scan`, `mint_disk_clean`, `mint_scan`, `mint_execute`, `mint_trash_scan`, `mint_trash_remove` | Scan the Mac the way the Disk page does, clean reviewed items, and review or empty selected Trash entries |
 | Space back without deleting | `mint_storage_scan`, `mint_storage_optimize`, `mint_sharing_scan`, `mint_sharing_execute` | Share storage between identical copies and compress files in place; every file keeps its name and contents |
 | Memory | `mint_memory_scan`, `mint_memory_release` | What uses memory, and quitting the apps chosen from Mint's list |
-| AI tools | `mint_agents`, `mint_conversations_scan`, `mint_conversations_optimize`, `mint_conversations_remove_media`, `mint_conversations_delete`, `mint_archives_optimize` | What Codex, Claude Code, Cursor and other AI tools keep on this Mac, and how much their conversations and archives take |
+| Auto Care | `mint_autocare_status`, `mint_autocare_disk`, `mint_autocare_folder`, `mint_autocare_memory` | See and set what Mint takes care of on its own |
 | Conversation pictures | `mint_compression_scan`, `mint_compression_execute`, `mint_pictures_scan`, `mint_picture_file_scan`, `mint_picture_preview`, `mint_pictures_keep`, `mint_pictures_remove` | Find the pictures inside AI conversations, preview one, keep some and remove the rest while the text stays |
 | Apps | `mint_apps_list`, `mint_uninstall_scan`, `mint_uninstall_execute` | Installed apps, and removing an app with the files it left behind |
 | Organize | `mint_organize_folders`, `mint_organize_preview`, `mint_organize_run`, `mint_organize_add`, `mint_organize_remove`, `mint_organize_configure` | Preview and organize the folders Mint manages, and choose which folders Mint manages and how |
-| Auto Care | `mint_autocare_status`, `mint_autocare_disk`, `mint_autocare_folder`, `mint_autocare_memory` | See and set what Mint takes care of on its own |
 | Rules and protection | `mint_rules`, `mint_rule_scan`, `mint_rule_create`, `mint_rule_update`, `mint_rule_enable`, `mint_rule_disable`, `mint_rule_remove`, `mint_handling_list`, `mint_handling_set` | Cleanup rules and their dry runs, and which paths Mint protects or asks about |
 | Undo and jobs | `mint_undo_list`, `mint_undo`, `mint_job_status`, `mint_job_cancel` | Put back what Mint changed, follow a long job and stop it |
 
